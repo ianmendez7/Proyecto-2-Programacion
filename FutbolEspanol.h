@@ -13,32 +13,37 @@ private:
     CopasGanadas copas;
 
 public:
-    FutbolEspanol() {
+
+    FutbolEspanol() : copas("Real Madrid", 14)
+    {
         pais = "España";
         liga = "LaLiga";
-        copas.setEquipo("Real Madrid");
-        copas.setCopas(14);
     }
 
-    void setLiga(string l) { 
-        liga = l; 
+    void set_liga(string l)
+    {
+        liga = l;
     }
 
-    string getLiga() { 
-        return liga; 
+    string get_liga()
+    {
+        return liga;
     }
 
-    void jugadores() {
+    void jugadores()
+    {
         cout << "Jugadores famosos: Benzema, Pedri, Griezmann." << endl;
     }
 
-    void pelota() {
-        cout << "Pelota esférica tamaño 5." << endl;
+    void pelota()
+    {
+        cout << "Pelota esferica tamano 5." << endl;
     }
 
-    void equipos() {
-        cout << "Equipos: Real Madrid, Barcelona, Atlético." << endl;
-        copas.mostrarCopas();
+    void equipos()
+    {
+        cout << "Equipos: Real Madrid, Barcelona, Atletico." << endl;
+        copas.mostrar_copas();
     }
 };
 
