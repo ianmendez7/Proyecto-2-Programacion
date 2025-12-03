@@ -18,9 +18,10 @@ public:
         return pais; 
     }
 
-    virtual void jugadores() {}
-    virtual void pelota() {}
-    virtual void equipos() {}
+    void jugadores() {}
+    void pelota() {}
+    void equipos() {}
 };
 
 #endif
+
