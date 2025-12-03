@@ -12,6 +12,11 @@ Consiste en recibir del usuario un deporte y, posteriormente, preguntarle qué i
 Este programa puede ser muy útil para personas que busquen información sobre estos deportes o quieran saber las similitudes y diferencias entre cada uno de ellos.
 
 # Correcciones
+- Se arregló el read me
+- Se añadio atributos, getters, setters y constructor.
+- Se arregó la herencia y el main
+- Se corrigió el UML para que coincidiera con el código
+- Se agregó composición
 
 # Consideraciones
 Para compilar y ejecutar el programa desde la terminal, siga estos pasos:
