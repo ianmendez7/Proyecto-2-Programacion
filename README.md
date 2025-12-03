@@ -14,7 +14,11 @@ Este programa puede ser muy útil para personas que busquen información sobre e
 # Correcciones
 
 # Consideraciones
-El proyecto esta diseñado para compilarse uniendo todos los archivos de encabezado
+Para compilar y ejecutar el programa desde la terminal, siga estos pasos:
+
+Ubíquese en la carpeta donde se encuentra main.cpp junto con todos los archivos .h.
+Posteriormente, ejecute el siguiente comando: g++ main.cpp -o programa Esto genera el archivo ejecutable programa.exe.
+Ejecución Ejecute el siguiente comando: .\programa.exe
 
 ```bash
 g++ main.cpp -o consultor_deportivo
