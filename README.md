@@ -6,3 +6,10 @@ Fútbol de la liga española, Basketball de la NBA, Fútbol americano de la NFL
 El problema consiste en recibir del usuario un deporte y, posteriormente, preguntarle qué información desea saber respecto a ese deporte. El programa debe procesar estas entradas y mostrar la información correspondiente.
 
 Este programa puede ser muy útil para personas que busquen información sobre estos deportes o quieran saber las similitudes y diferencias entre cada uno de ellos.
+
+
+# Consideraciones
+El proyecto esta diseñado para compilarse uniendo todos los archivos de encabezado
+
+```bash
+g++ main.cpp -o consultor_deportivo
