@@ -13,33 +13,39 @@ private:
     CopasGanadas copas;
 
 public:
-    NBA() {
+
+    NBA() : copas("Lakers", 17)
+    {
         pais = "Estados Unidos";
         conferencia = "Este y Oeste";
-        copas.setEquipo("Lakers");
-        copas.setCopas(17);
     }
 
-    void setConferencia(string c) { 
-        conferencia = c; 
+    void set_conferencia(string c)
+    {
+        conferencia = c;
     }
 
-    string getConferencia() { 
-        return conferencia; 
+    string get_conferencia()
+    {
+        return conferencia;
     }
 
-    void jugadores() {
+    void jugadores()
+    {
         cout << "Jugadores famosos: LeBron James, Curry, Durant." << endl;
     }
 
-    void pelota() {
+    void pelota()
+    {
         cout << "Pelota tamaño 7 de cuero." << endl;
     }
 
-    void equipos() {
+    void equipos()
+    {
         cout << "Equipos: Lakers, Warriors, Celtics." << endl;
-        copas.mostrarCopas();
+        copas.mostrar_copas();
     }
 };
 
 #endif
+
