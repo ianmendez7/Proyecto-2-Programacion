@@ -10,12 +10,15 @@ protected:
     string pais;
 
 public:
-    void setPais(string p) { 
-        pais = p; 
+
+    void set_pais(string p)
+    {
+        pais = p;
     }
 
-    string getPais() { 
-        return pais; 
+    string get_pais()
+    {
+        return pais;
     }
 
     void jugadores() {}
@@ -24,4 +27,3 @@ public:
 };
 
 #endif
-
