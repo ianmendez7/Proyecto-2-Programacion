@@ -11,26 +11,46 @@ private:
     int copas;
 
 public:
-    void setEquipo(string e) { 
-        equipo = e; 
+
+    CopasGanadas()
+    {
+        equipo = "Sin equipo";
+        copas = 0;
     }
 
-    string getEquipo() { 
-        return equipo; 
+    CopasGanadas(string e, int c)
+    {
+        equipo = e;
+        copas = c;
     }
 
-    void setCopas(int c) { 
-        copas = c; 
+    void set_equipo(string e)
+    {
+        equipo = e;
     }
 
-    int getCopas() { 
-        return copas; 
+    string get_equipo()
+    {
+        return equipo;
     }
 
-    void mostrarCopas() {
+    void set_copas(int c)
+    {
+        copas = c;
+    }
+
+    int get_copas()
+    {
+        return copas;
+    }
+
+    void mostrar_copas()
+    {
         cout << "Equipo: " << equipo << endl;
         cout << "Copas ganadas: " << copas << endl;
     }
 };
 
 #endif
+
+
