@@ -1,0 +1,45 @@
+#ifndef NBA_H
+#define NBA_H
+
+#include <iostream>
+#include <string>
+#include "Deporte.h"
+#include "CopasGanadas.h"
+using namespace std;
+
+class NBA : public Deporte {
+private:
+    string conferencia;
+    CopasGanadas copas;
+
+public:
+    NBA() {
+        pais = "Estados Unidos";
+        conferencia = "Este y Oeste";
+        copas.setEquipo("Lakers");
+        copas.setCopas(17);
+    }
+
+    void setConferencia(string c) { 
+        conferencia = c; 
+    }
+
+    string getConferencia() { 
+        return conferencia; 
+    }
+
+    void jugadores() {
+        cout << "Jugadores famosos: LeBron James, Curry, Durant." << endl;
+    }
+
+    void pelota() {
+        cout << "Pelota tamaño 7 de cuero." << endl;
+    }
+
+    void equipos() {
+        cout << "Equipos: Lakers, Warriors, Celtics." << endl;
+        copas.mostrarCopas();
+    }
+};
+
+#endif
