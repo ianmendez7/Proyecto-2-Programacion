@@ -1,7 +1,7 @@
 # Proyecto-2-Programacion
 
 # Contexto
-Una persona dueña de una restaurante que transmite diversos deportes necesita generar un código que le explique brevemente estos deportes a sus clientes para que puedan entender y disfrutar de ellos mientras están en el restaurante. Debido a esto genera un programa con clases que resuelve diferentes dudas de los deportes en cuestión.
+Una persona dueña de una restaurante que transmite diversos deportes necesita generar un código que le explique brevemente estos deportes a sus clientes para que puedan entender y disfrutar de ellos mientras están en el restaurante. Debido a esto genera un programa con diversas clases que resuelve diferentes dudas de los deportes en cuestión, ya sea como jugadores o equipos famosos, las copas que tenga, balón, etc. Así permitiendo que la gente disfrute mas de la estancia en su restaurante y a su vez tenga mas clientes nuevos.
 
 # Funcionalidad
 El programa tiene como objetivo permitir que el usuario consulte información básica sobre tres deportes específicos:
