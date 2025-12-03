@@ -13,33 +13,40 @@ private:
     CopasGanadas copas;
 
 public:
-    NFL() {
+
+    NFL() : copas("Patriots", 6)
+    {
         pais = "Estados Unidos";
         division = "AFC y NFC";
-        copas.setEquipo("Patriots");
-        copas.setCopas(6);
     }
 
-    void setDivision(string d) { 
-        division = d; 
+    void set_division(string d)
+    {
+        division = d;
     }
 
-    string getDivision() { 
-        return division; 
+    string get_division()
+    {
+        return division;
     }
 
-    void jugadores() {
+    void jugadores()
+    {
         cout << "Jugadores famosos: Tom Brady, Mahomes, Rodgers." << endl;
     }
 
-    void pelota() {
+    void pelota()
+    {
         cout << "Pelota ovalada de cuero." << endl;
     }
 
-    void equipos() {
+    void equipos()
+    {
         cout << "Equipos: Patriots, Cowboys, Packers." << endl;
-        copas.mostrarCopas();
+        copas.mostrar_copas();
     }
 };
 
 #endif
+
+
