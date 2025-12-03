@@ -9,19 +9,19 @@ int main() {
     string deporte;
     string opcion;
 
-    cout << "¿Qué deporte deseas consultar? (futbol, nba, nfl): ";
+    cout << "Que deporte deseas consultar (futbol, nba, nfl): ";
     cin >> deporte;
 
     while (deporte != "futbol" && deporte != "nba" && deporte != "nfl") {
-        cout << "Error: deporte no válido. Intenta de nuevo: ";
+        cout << "Error: deporte no valido. Intenta de nuevo: ";
         cin >> deporte;
     }
 
-    cout << "¿Qué deseas saber? (jugadores, pelota, equipos): ";
+    cout << "Que deseas saber (jugadores, pelota, equipos): ";
     cin >> opcion;
 
     while (opcion != "jugadores" && opcion != "pelota" && opcion != "equipos") {
-        cout << "Error: opción no válida. Intenta de nuevo: ";
+        cout << "Error: opcion no valida. Intenta de nuevo: ";
         cin >> opcion;
     }
 
@@ -51,3 +51,4 @@ int main() {
 
     return 0;
 }
+
