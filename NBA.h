@@ -31,6 +31,7 @@ using namespace std;
 // Representa el basketball profesional de Estados Unidos.
 // Hereda de Deporte y además guarda información extra como
 // la conferencia y las copas ganadas por un equipo principal.
+
 class NBA : public Deporte {
 private:
     string conferencia;   // Guarda las conferencias principales (Este y Oeste)
@@ -42,6 +43,7 @@ public:
     // Aquí empieza con valores por defecto para que el
     // programa ya tenga datos sin pedir nada al usuario.
     // También se inicializa el objeto copas usando su constructor.
+
     NBA() : copas("Lakers", 17)
     {
         pais = "Estados Unidos";    // País donde se juega este deporte
@@ -49,24 +51,28 @@ public:
     }
 
     // Setter de conferencia: permite cambiar la conferencia
+
     void set_conferencia(string c)
     {
         conferencia = c;
     }
 
     // Getter de conferencia: regresa la conferencia guardada
+
     string get_conferencia()
     {
         return conferencia;
     }
 
     // Método que imprime jugadores famosos de la NBA
+
     void jugadores()
     {
         cout << "Jugadores famosos: LeBron James, Curry, Durant." << endl;
     }
 
     // Método que describe el tipo de balón que se usa en este deporte
+
     void pelota()
     {
         cout << "Pelota tamano 7 de cuero." << endl;
@@ -74,6 +80,7 @@ public:
 
     // Método que muestra equipos conocidos
     // También imprime las copas ganadas del equipo más famoso
+
     void equipos()
     {
         cout << "Equipos: Lakers, Warriors, Celtics." << endl;
@@ -82,3 +89,4 @@ public:
 };
 
 #endif
+
