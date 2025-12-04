@@ -80,4 +80,5 @@ public:
 
     void equipos()
     {
-        cout << "Equipos: Patriots, Cowboys,
+        cout << "Equipos: Patriots, Cowboys, 49ers."
+
