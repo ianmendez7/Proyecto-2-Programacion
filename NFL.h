@@ -80,5 +80,11 @@ public:
 
     void equipos()
     {
-        cout << "Equipos: Patriots, Cowboys, 49ers."
+        cout << "Equipos: Patriots, Cowboys, 49ers."<< endl;
+        copas.mostrar_copas();  // Llamamos al método del objeto copas
+    }
+};
+
+#endif
+
 
