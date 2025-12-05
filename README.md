@@ -45,6 +45,6 @@ Para compilar y ejecutar el programa desde la terminal, siga estos pasos:
 ```bash
 g++ main.cpp -o consultor_deportivo
 ```
-- Después ejecute el siguiente comando: .\programa.exe
+- Después ejecute el siguiente comando: .\consultor_deportivo.exe
 
 
